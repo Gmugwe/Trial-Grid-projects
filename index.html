@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width-device-width, initial-scale-1.0">
+      <title>Grid 1.0</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+
+    </head>
+     <body>
+       <!--section 3 adding full row-->
+       <div class="container-fluid">
+         <div class="row">
+           <div class="col-md-12 header" style="background-color: black">Using Grids</div>
+         </div>
+       </div>
+
+      <!--section2 adding 33.3% row and 66.6%/ col 4 and 8 unequal col--->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 green" style="background-color: green">this is .col-sm-4 in use</div>
+          <div class="col-md-8 red" style="background-color: red">this is .col-sm-8 in use</div>
+        </div>
+      </div>
+
+      <!--section 3 adding uneven rows-->
+      <div class="container-fluid">
+        <div class="row">
+        <div class="col-xs-6 col-sm-3 yellow" style="background-color: yellow">.col-xs-6 .col-sm-3</div>
+        <div class="col-xs-6 col-sm-3 purple" style="background-color: purple">.col-xs-6 .col-sm-3</div>
+
+        <div class="clearfix visible-xs-block"></div>
+
+        <div class="col-xs-6 col-sm-3 blue" style="background-color: blue">.col-xs-6 .col-sm-3</div>
+        <div class="col-xs-6 col-sm-3 purple" style="background-color: purple">.col-xs-6 .col-sm-3</div>
+      </div>
+     </div>
+
+      <!--section 4-->
+      <div class="container-fluid">
+        <div class="row blank">
+          <div class="col-md-12" style="background-color: white"></div>
+        </div>
+      </div>
+
+      <!--section 5-->
+      <div class="container-fluid clearfix>
+        <div class="row">
+          <div class="col-md-3 bali">
+            <img src="img/bali.jpg" alt="a picture of bali" width="300" height="180">
+          </div>
+
+          <div class="col-md-3 wall">
+            <img src="img/great.jpg" alt="wall of China" width="300" height="180">
+          </div>
+
+          <div class="col-md-3 paris">
+            <img src="img/paris.jpg" alt="Paris" width="300" height="180">
+          </div>
+
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 footer">
+        <footer>Copyright &copy;RightHand Ltd. </footer>
+        </div>
+
+
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+     </body>
+</html>
